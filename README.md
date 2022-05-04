@@ -23,8 +23,11 @@ cd my-micro-fe-portfolio
 At the root repo, execute below command to start all modules in this project
 
 ```
+yarn add #if not installed
 yarn start
 ```
+
+Note: To run this project without issues, you need to start the BE project first. Open this [link](https://github.com/vuquangkhtn/my-porfolio-backend) for detail
 
 ### Add new workspace
 
