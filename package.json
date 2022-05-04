@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": [
+    "my-portfolio-home",
+    "my-portfolio-projects",
+    "my-portfolio-educations"
+  ],
+  "name": "my-micro-fe-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently --kill-others \"yarn start:home\" \"yarn start:educations\" \"yarn start:projects\"",
+    "start:home": "cd ./my-portfolio-home && yarn start",
+    "start:educations": "cd ./my-portfolio-projects && yarn start",
+    "start:projects": "cd ./my-portfolio-educations && yarn start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

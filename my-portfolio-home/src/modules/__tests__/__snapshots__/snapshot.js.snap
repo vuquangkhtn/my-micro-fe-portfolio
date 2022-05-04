@@ -1,0 +1,842 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render About 1`] = `
+<div>
+  <section
+    class="about full-screen d-lg-flex justify-content-center align-items-center"
+    id="about"
+    test-id="about"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-7 col-md-12 col-12 d-flex align-items-center"
+        >
+          <div
+            class="about-text"
+          >
+            <small
+              class="small-text"
+            >
+              Welcome to
+               
+              <span
+                class="mobile-block"
+              >
+                my portfolio website!
+              </span>
+            </small>
+            <h1
+              class="animated animated-text"
+            >
+              <span
+                class="mr-2"
+              >
+                Hey folks, I am
+              </span>
+              <div
+                class="animated-info"
+              >
+                <span
+                  class="animated-item"
+                >
+                  Quang
+                </span>
+                <span
+                  class="animated-item"
+                >
+                  Web developer
+                </span>
+              </div>
+            </h1>
+            <p>
+              user bio text
+            </p>
+            <div
+              class="custom-btn-group mt-4"
+            >
+              <button
+                class="sc-bdvvtL dVMeJj mr-lg-2 mb-2"
+                mode="primary"
+              >
+                <div
+                  class="d-flex align-items-center"
+                >
+                  <span />
+                   
+                  <span>
+                    Download Resume
+                  </span>
+                </div>
+              </button>
+              <button
+                class="sc-bdvvtL exrfkh ml-2 mb-2"
+                mode="secondary"
+              >
+                Get my contact
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-5 col-md-12 col-12"
+        >
+          <div
+            class="about-image svg"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`should render Articles 1`] = `
+<div>
+  <section
+    class="resume py-5 d-lg-flex justify-content-center align-items-center"
+    id="education"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-12"
+        >
+          <h2
+            class="mb-4"
+          >
+            Articles
+          </h2>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-6 col-sm-12 col-lg-4 py-3 pe-auto"
+            >
+              <div
+                class="card mr-1"
+              >
+                <div
+                  class="card-header"
+                  style="height: 200px; overflow: hidden;"
+                />
+                <div
+                  class="card-body"
+                >
+                  <h4
+                    class=""
+                  >
+                    How to manage states in React applications effectively
+                  </h4>
+                  <p
+                    class="card-text"
+                  >
+                    you can keep not only a clean and readable state management but also reduce the complex logic handling in your applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-sm-12 col-lg-4 py-3 pe-auto"
+            >
+              <div
+                class="card mr-1"
+              >
+                <div
+                  class="card-header"
+                  style="height: 200px; overflow: hidden;"
+                />
+                <div
+                  class="card-body"
+                >
+                  <h4
+                    class=""
+                  >
+                    My Porfolio Common Library
+                  </h4>
+                  <p
+                    class="card-text"
+                  >
+                    a React UI library with a comprehensive set of components for My Porfolio page.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-sm-12 col-lg-4 py-3 pe-auto"
+            >
+              <div
+                class="card mr-1"
+              >
+                <div
+                  class="card-header"
+                  style="height: 200px; overflow: hidden;"
+                />
+                <div
+                  class="card-body"
+                >
+                  <h4
+                    class=""
+                  >
+                    My Porfolio Server
+                  </h4>
+                  <p
+                    class="card-text"
+                  >
+                    a server using Graphql which store and dispatch data for My Porfolio page.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`should render Contact 1`] = `
+<div>
+  <section
+    class="contact py-5"
+    id="contact"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-5 mr-lg-5 col-12"
+        >
+          <div
+            class="google-map w-100"
+          >
+            <iframe
+              allowfullscreen=""
+              frameborder="0"
+              height="300"
+              src="https://maps.google.com/maps?q=Mock%20Address&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              style="border: 0px;"
+              width="400"
+            />
+          </div>
+          <div
+            class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5"
+          >
+            <div
+              class="contact-info-item"
+            >
+              <h3
+                class="mb-3 text-white"
+              >
+                My information
+              </h3>
+              <p
+                class="footer-text mb-0"
+              >
+                +(84)123 456 789
+              </p>
+              <p>
+                <a
+                  href="mailto:vuquang@mockemail.com"
+                >
+                  vuquang@mockemail.com
+                </a>
+              </p>
+            </div>
+            <ul
+              class="social-links"
+            >
+              <li>
+                <a
+                  href="github.com/vuquang"
+                  rel="noreferrer"
+                  target="_blank"
+                  title="github"
+                >
+                  <span />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="linkedin.com/vuquang"
+                  rel="noreferrer"
+                  target="_blank"
+                  title="linkedin"
+                >
+                  <span />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:84123456789"
+                  title="phone"
+                >
+                  <span />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 col-12"
+        >
+          <div
+            class="contact-form"
+          >
+            <h2
+              class="mb-4"
+            >
+              Interested to work together? Let's talk
+            </h2>
+            <div>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-6 col-12"
+                >
+                  <input
+                    autocomplete="nope"
+                    class="sc-gsDKAQ bOKthw"
+                    name="name"
+                    placeholder="Your Name"
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="col-lg-6 col-12"
+                >
+                  <input
+                    autocomplete="nope"
+                    class="sc-gsDKAQ bOKthw"
+                    name="email"
+                    placeholder="Email"
+                    type="email"
+                  />
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <textarea
+                    autocomplete="nope"
+                    class="sc-dkPtRN eftWWY"
+                    name="message"
+                    placeholder="Message"
+                    rows="6"
+                  />
+                </div>
+                <div
+                  class="col-lg-5 col-12"
+                >
+                  <button
+                    class="sc-bdvvtL gLFEMN"
+                    mode="submit"
+                  >
+                    Send Contact
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`should render Educations 1`] = `
+<div>
+  <section
+    class="resume py-5 d-lg-flex justify-content-center align-items-center"
+    id="education"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-12"
+        >
+          <h2
+            class="mb-4"
+          >
+            Educations
+          </h2>
+          <div
+            class="timeline"
+          >
+            <div
+              class="timeline-wrapper"
+            >
+              <div
+                class="timeline-yr"
+              >
+                <span>
+                  Organization 1
+                </span>
+              </div>
+              <div
+                class="timeline-info"
+              >
+                <h3>
+                  <span />
+                  Education 1
+                </h3>
+                <p>
+                  Description 1
+                </p>
+              </div>
+            </div>
+            <div
+              class="timeline-wrapper"
+            >
+              <div
+                class="timeline-yr"
+              >
+                <span>
+                  Organization 2
+                </span>
+              </div>
+              <div
+                class="timeline-info"
+              >
+                <h3>
+                  <span />
+                  Education 2
+                </h3>
+                <p>
+                  Description 2
+                </p>
+              </div>
+            </div>
+            <div
+              class="timeline-wrapper"
+            >
+              <div
+                class="timeline-yr"
+              >
+                <span>
+                  Organization 3
+                </span>
+              </div>
+              <div
+                class="timeline-info"
+              >
+                <h3>
+                  <span />
+                  Education 3
+                </h3>
+                <p>
+                  Description 3
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`should render Footer 1`] = `
+<div>
+  <footer
+    class="footer py-5"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-12 col-12"
+        >
+          <p
+            class="copyright-text text-center"
+          >
+            Designed by
+             
+            <a
+              class="sc-hKwDye hjOJSd"
+              href="htwtps://www.facebook.com/tooplate"
+              rel="nofollow"
+            >
+              Tooplate
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`should render Histories 1`] = `
+<div>
+  <section
+    class="resume py-5 d-lg-flex justify-content-center align-items-center"
+    id="history"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-12"
+        >
+          <h2
+            class="mb-4"
+          >
+            Histories
+          </h2>
+          <div
+            class="timeline"
+          >
+            <div
+              class="timeline-wrapper"
+            >
+              <div
+                class="timeline-yr"
+              >
+                <span>
+                  12 mths
+                </span>
+              </div>
+              <div
+                class="timeline-info"
+              >
+                <h3>
+                  <span />
+                  His Name 1
+                  <small>
+                    Company 1
+                  </small>
+                </h3>
+                <p>
+                  From 10/2020 to 10/2021
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`should render Menu 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-sm navbar-light headroom"
+  >
+    <div
+      class="container"
+    >
+      <a
+        class="navbar-brand"
+        href=""
+      >
+        <span />
+         
+        username
+      </a>
+      <button
+        class="sc-eCImPb ifRcVo navbar-toggler"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+        <span
+          class="navbar-toggler-icon"
+        />
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+      >
+        <ul
+          class="navbar-nav mx-auto"
+        >
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#skill"
+            >
+              <span
+                data-hover="Skill"
+              >
+                Skill
+              </span>
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#history"
+            >
+              <span
+                data-hover="History"
+              >
+                History
+              </span>
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#project"
+            >
+              <span
+                data-hover="Project"
+              >
+                Project
+              </span>
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#contact"
+            >
+              <span
+                data-hover="Contact"
+              >
+                Contact
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="navbar-nav ml-lg-auto"
+        >
+          <div
+            class="ml-lg-4"
+          >
+            <div
+              class="color-mode d-lg-flex justify-content-center align-items-center"
+              data-testid="light-icon"
+            >
+              <span />
+              Color mode
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`should render Projects 1`] = `
+<div>
+  <section
+    class="resume py-5 d-lg-flex justify-content-center align-items-center"
+    id="project"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-12"
+        >
+          <h2
+            class="mb-4"
+          >
+            Project Experiences
+          </h2>
+          <div
+            class="timeline"
+          >
+            <div
+              class="timeline-wrapper"
+            >
+              <div
+                class="timeline-yr"
+              >
+                <span>
+                  1
+                </span>
+              </div>
+              <div
+                class="timeline-info"
+              >
+                <h3>
+                  <span>
+                    Software Eng
+                  </span>
+                  <small>
+                    Web
+                  </small>
+                </h3>
+                <p>
+                  Description for Exp
+                </p>
+                <b>
+                  skills 1
+                </b>
+              </div>
+            </div>
+            <div
+              class="timeline-wrapper"
+            >
+              <div
+                class="timeline-yr"
+              >
+                <span>
+                  2
+                </span>
+              </div>
+              <div
+                class="timeline-info"
+              >
+                <h3>
+                  <span>
+                    Web Developer
+                  </span>
+                  <small>
+                    Website
+                  </small>
+                </h3>
+                <p>
+                  Description for Exp 2
+                </p>
+                <b>
+                  skill 2
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`should render Skills 1`] = `
+<div>
+  <section
+    class="resume py-5 d-lg-flex justify-content-center align-items-center"
+    id="skill"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-12"
+        >
+          <h2
+            class="mb-4"
+          >
+            Skills
+          </h2>
+          <div
+            data-testid="skill-list"
+          >
+            <div
+              class="d-lg-flex align-items-center mb-3"
+            >
+              <h4
+                class="mb-1 mr-2"
+              >
+                <span>
+                  Skill 1
+                </span>
+              </h4>
+              <div
+                class="d-flex flex-wrap"
+                style="row-gap: 5px;"
+              >
+                <div
+                  class="medal mr-1"
+                >
+                  Skill Detail 1
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-lg-flex align-items-center mb-3"
+            >
+              <h4
+                class="mb-1 mr-2"
+              >
+                <span>
+                  Skill 2
+                </span>
+              </h4>
+              <div
+                class="d-flex flex-wrap"
+                style="row-gap: 5px;"
+              >
+                <div
+                  class="medal mr-1"
+                >
+                  Skill Detail 2
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-lg-flex align-items-center mb-3"
+            >
+              <h4
+                class="mb-1 mr-2"
+              >
+                <span>
+                  Skill 3
+                </span>
+              </h4>
+              <div
+                class="d-flex flex-wrap"
+                style="row-gap: 5px;"
+              >
+                <div
+                  class="medal mr-1"
+                >
+                  Skill Detail 3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
