@@ -1,17 +1,20 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'my-portfolio-common.js',
-        library: "myPortfolioCommon",
+        path: path.resolve(__dirname, './dist'),
+        filename: 'index.js',
+        libraryTarget: 'commonjs2'
     },
-
+    externals: {
+        // fix Error: Invalid hook call 
+        // https://stackoverflow.com/questions/60087860/issue-with-styled-component-error-invalid-hook-call
+        react: "commonjs react",
+    },
     resolve: {
         extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
     },
-
     module: {
         rules: [
             {

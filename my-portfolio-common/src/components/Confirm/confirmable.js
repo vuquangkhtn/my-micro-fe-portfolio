@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { useState } from 'react';
 
 const confirmable =
@@ -29,6 +28,7 @@ const confirmable =
           show={show}
           {...restProps}
         />
-    )};
+      )
+    };
 
 export default confirmable;

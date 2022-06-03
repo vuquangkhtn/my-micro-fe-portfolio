@@ -1,4 +1,4 @@
-import { Button, Input, TextArea, Link, NavBarToggler, StaticPages } from 'my-porfolio-common-library';
+import { Button, Input, TextArea, Link, NavBarToggler, StaticPages } from 'my-portfolio-common';
 import confirmPopup from './confirmPopup';
 import Image from './Image';
 import ErrorBoundary from './ErrorBoundary';

@@ -1,4 +1,4 @@
-import { confirmKit } from 'my-porfolio-common-library';
+import { confirmKit } from 'my-portfolio-common';
 const { confirmable, createConfirmation, Popup } = confirmKit;
 
 const ConfirmPopup = confirmable(Popup);
